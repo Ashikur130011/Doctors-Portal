@@ -4,7 +4,6 @@ import login from '../../../images/login.png'
 import Button from "@mui/material/Button";
 import { NavLink, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../Hook/useAuth';
-import { is } from 'date-fns/locale';
 
 const Login = () => {
     const[loginData, setLoginData] = useState({})
